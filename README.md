@@ -22,3 +22,6 @@
 - Requests
 - BeautifulSoup4
 - json
+- os
+- pandas
+- matplotlib
