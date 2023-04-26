@@ -21,7 +21,8 @@
 ## Użyte biblioteki
 - Requests
 - BeautifulSoup4
-- json
-- os
-- pandas
-- matplotlib
+- Json
+- Os
+- Pandas
+- Numpy
+- Matplotlib
