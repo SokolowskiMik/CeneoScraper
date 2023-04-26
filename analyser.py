@@ -60,9 +60,9 @@ recommendation = opinions["recommendation"].value_counts(dropna = False).sort_in
 print(recommendation)
 recommendation.plot.pie(
     label="",
-    autopct="%1.1f%%"),
-    labels = ["Nie polecam", "Polecam", "Nie mam zdania"],
-    colors = ["crimson", "forestgreen", "gray"]
+    autopct="%1.1f%%",
+    labels= ["Nie polecam", "Polecam", "Nie mam zdania"],
+    colors= ["crimson", "forestgreen", "gray"]
 )
 
 plt.legend(bbox_to_anchor=(1.0,1.0))
